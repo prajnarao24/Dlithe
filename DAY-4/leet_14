@@ -1,0 +1,11 @@
+//longest common prefix
+#include<iostream>
+#include<string>
+
+using namespace std;
+string Longest(string strs[],int n){
+    string prefix=strs[0];
+    for(int i=1;i<n;i++){
+        
+    }
+}

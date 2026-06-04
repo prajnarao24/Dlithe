@@ -1,0 +1,24 @@
+#include<iostream>
+#include<string>
+#include<sstream>
+
+
+using namespace std;
+int solve(string s){
+    stringstream ss(s);
+    string word;
+    string res=""   ;
+    while(ss>>word){
+        if(res==""){
+            res=word;
+        }else{
+            res=word+res;
+        }
+        return 0;
+    }}
+    int main(){
+        string s="Sky is blue";
+        cout<<solve(s);
+        return 0;
+    
+}
